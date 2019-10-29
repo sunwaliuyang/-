@@ -44,13 +44,13 @@ Eshell V5.10.4  (abort with ^G)
 
 重走第一步，安装最新版本erlang
 
-|  | RabbitMQ Version |  | Minimum required Erlang/OTP | Maximum supported Erlang/OTP | Notes |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-|  | 3.8.0 |  | 21.3.x | 22.x | Erlang 22.1 is recommended. |
-|  | 3.7.19 | 21.3.x | 22.x | \[Erlang/OTP20.3.xsupport is discontinued\]\([https://groups.google.com/forum/\#!searchin/rabbitmq-users/ANN](https://groups.google.com/forum/#!searchin/rabbitmq-users/ANN) | sort:date/rabbitmq-users/9tc\_OE1eMPk/ly1NEISwBwAJ\) |
-|  | 3.7.18、3.7.17、3.7.16、3.7.15 |  | 20.3.x | 22.x | [Erlang/OTP22.0compatibility notes](https://groups.google.com/forum/#!topic/rabbitmq-users/vcRLhpUdg_o)[TLSv1.0 and TLSv1.1 support](https://www.rabbitmq.com/ssl.html#tls-versions)is disabled by default on Erlang 22.x |
-|  | 3.7.14、3.7.13、3.7.12、3.7.11、3.7.10、3.7.9、3.7.8、3.7.7 |  | 20.3.x | 21.3.x | [Erlang/OTP19.3.xsupport is discontinued](https://groups.google.com/forum/#!topic/rabbitmq-users/G4UJ9zbIYHs)For the best TLS support, the latest version of Erlang/OTP 21.3.x is recommended |
-|  | 3.7.6、3.7.5、3.7.4、3.7.3、3.7.2、3.7.1、3.7.0 |  | 19.3.x | 20.3.x | For the best TLS support, the latest version of Erlang/OTP 20.3.x is recommendedErlang versions prior to 19.3.6.4 have known bugs \(e.g.[ERL-430](https://bugs.erlang.org/browse/ERL-430),[ERL-448](https://bugs.erlang.org/browse/ERL-448)\) that can prevent RabbitMQ nodes from accepting connections \(including from CLI tools\) and stoppingVersions prior to 19.3.6.4 are vulnerable to the[ROBOT attack](https://robotattack.org/)\(CVE-2017-1000385\)On Windows, Erlang/OTP 20.2 changed[default cookie file location](https://www.rabbitmq.com/cli.html) |
+| RabbitMQ Version | Minimum required Erlang/OTP | Maximum supported Erlang/OTP | Notes |
+| :--- | :--- | :--- | :--- |
+| 3.8.0 | 21.3.x | 22.x | Erlang 22.1 is recommended. |
+| 3.7.19 | 22.x | \[Erlang/OTP20.3.xsupport is discontinued\]\([https://groups.google.com/forum/\#!searchin/rabbitmq-users/ANN](https://groups.google.com/forum/#!searchin/rabbitmq-users/ANN) | sort:date/rabbitmq-users/9tc\_OE1eMPk/ly1NEISwBwAJ\) |
+| 3.7.18、3.7.17、3.7.16、3.7.15 | 20.3.x | 22.x | [Erlang/OTP22.0compatibility notes](https://groups.google.com/forum/#!topic/rabbitmq-users/vcRLhpUdg_o)[TLSv1.0 and TLSv1.1 support](https://www.rabbitmq.com/ssl.html#tls-versions)is disabled by default on Erlang 22.x |
+| 3.7.14、3.7.13、3.7.12、3.7.11、3.7.10、3.7.9、3.7.8、3.7.7 | 20.3.x | 21.3.x | [Erlang/OTP19.3.xsupport is discontinued](https://groups.google.com/forum/#!topic/rabbitmq-users/G4UJ9zbIYHs)For the best TLS support, the latest version of Erlang/OTP 21.3.x is recommended |
+| 3.7.6、3.7.5、3.7.4、3.7.3、3.7.2、3.7.1、3.7.0 | 19.3.x | 20.3.x | For the best TLS support, the latest version of Erlang/OTP 20.3.x is recommendedErlang versions prior to 19.3.6.4 have known bugs \(e.g.[ERL-430](https://bugs.erlang.org/browse/ERL-430),[ERL-448](https://bugs.erlang.org/browse/ERL-448)\) that can prevent RabbitMQ nodes from accepting connections \(including from CLI tools\) and stoppingVersions prior to 19.3.6.4 are vulnerable to the[ROBOT attack](https://robotattack.org/)\(CVE-2017-1000385\)On Windows, Erlang/OTP 20.2 changed[default cookie file location](https://www.rabbitmq.com/cli.html) |
 
 [erlang官网](https://www.erlang.org/)
 
