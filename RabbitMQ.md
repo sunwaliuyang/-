@@ -72,9 +72,11 @@ make && make install
 
 ```
 yun install ncurses-devel
+
+#编译安装
+./configure --prefix=/usr/lib/erlang
+make && make install
 ```
-
-
 
 
 
