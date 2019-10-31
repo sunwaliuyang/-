@@ -6,4 +6,5 @@
 * [Linux高性能服务器编程-学习笔记](linuxgao-xing-neng-fu-wu-qi-bian-7a0b-xue-xi-bi-ji.md)
 * [laravel电商实战](laraveldian-shang-shi-zhan.md)
 * [RabbitMQ学习笔记](rabbitmqxue-xi-bi-ji.md)
+* [iris框架+xrom入门笔记](iriskuang-67b6+-xrom-ru-men-bi-ji.md)
 

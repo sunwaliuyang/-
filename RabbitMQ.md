@@ -56,6 +56,14 @@ Eshell V5.10.4  (abort with ^G)
 
 ```
 #官网下载最新相关版本
+wget http://erlang.org/download/otp_src_22.1.tar.gz
+#解压
+tar -zxvf otp_src_19.3.tar.gz
+cd otp_src_19.3
+#配置安装目录
+./configure --prefix=/usr/lib/erlang
+#编译安装
+make && make install
 ```
 
 
