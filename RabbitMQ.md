@@ -66,5 +66,15 @@ cd otp_src_19.3
 make && make install
 ```
 
+安装过程中错误提示：`configure: error: No curses library functions found`
+
+原因：未安装`ncurses-devel`扩展
+
+```
+yun install ncurses-devel
+```
+
+
+
 
 
