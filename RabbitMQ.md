@@ -78,5 +78,30 @@ yun install ncurses-devel
 make && make install
 ```
 
+在配置文件中配置环境变量`~/.bash_profile`
 
+```
+vim ~/.bash_profile
+#添加命令（本地安装目录）
+PATH=$PATH:/usr/local/lib/erlang/bin
+#使bash_profile生效
+source ~/.bash_profile
+```
+
+验证erlang是否安装成功
+
+```
+erl
+```
+
+输出
+
+```
+Erlang/OTP 22 [erts-10.5] [source] [64-bit] [smp:1:1] [ds:1:1:10] [async-threads:1] [hipe]
+
+Eshell V10.5  (abort with ^G)
+1> 
+```
+
+说明 erlang版本更新成功
 
