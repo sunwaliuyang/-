@@ -7,4 +7,5 @@
 * [laravel电商实战](laraveldian-shang-shi-zhan.md)
 * [RabbitMQ学习笔记](rabbitmqxue-xi-bi-ji.md)
 * [iris框架+xrom入门笔记](iriskuang-67b6+-xrom-ru-men-bi-ji.md)
+* [GO 夜读 学习笔记](go-ye-du-xue-xi-bi-ji.md)
 

@@ -100,8 +100,21 @@ erl
 Erlang/OTP 22 [erts-10.5] [source] [64-bit] [smp:1:1] [ds:1:1:10] [async-threads:1] [hipe]
 
 Eshell V10.5  (abort with ^G)
-1> 
+1>
 ```
 
 说明 erlang版本更新成功
+
+安装RabbitMQ
+
+```
+#rpm -ivh --nodeps rabbitmq-server-3.8.0-1.el7.noarch.rpm
+warning: rabbitmq-server-3.8.0-1.el7.noarch.rpm: Header V4 RSA/SHA256 Signature, key ID 6026dfca: NOKEY
+Preparing...                          ################################# [100%]
+Updating / installing...
+   1:rabbitmq-server-3.8.0-1.el7      ################################# [100%]
+
+```
+
+
 
