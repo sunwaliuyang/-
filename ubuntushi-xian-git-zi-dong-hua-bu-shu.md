@@ -6,7 +6,21 @@
 # 安装 GIT信息
 
 ```
-1| sudo apt-get install git
+sudo apt-get install git
+```
+
+查看版本信息
+
+```
+git --version
+git version 2.17.1
+```
+
+# 创建git仓库
+
+```
+git --bare init
+git init
 ```
 
 
