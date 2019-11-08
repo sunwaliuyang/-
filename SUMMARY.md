@@ -9,4 +9,5 @@
 * [iris框架+xrom入门笔记](iriskuang-67b6+-xrom-ru-men-bi-ji.md)
 * [GO 夜读 学习笔记](go-ye-du-xue-xi-bi-ji.md)
 * [ubuntu实现Git自动化部署](ubuntushi-xian-git-zi-dong-hua-bu-shu.md)
+* [ubuntu 安装 RabbitMQ](ubuntu-an-zhuang-rabbitmq.md)
 

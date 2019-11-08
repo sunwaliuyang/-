@@ -16,10 +16,20 @@ git --version
 git version 2.17.1
 ```
 
+# \#添加git账号
+
+```
+groupadd git
+useradd -d /home/git -m git
+```
+
 # 创建git仓库
 
 ```
+#初始化裸仓库
 git --bare init
+#配置仓库的权限
+chown -R git:git website.git
 git init
 ```
 
