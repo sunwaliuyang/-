@@ -12,5 +12,15 @@
   tar xfz go1.13.4.linux-amd64.tar.gz -C /usr/local
 ```
 
+### 3. 配置全局变量
+
+```
+#修改~/.bashrc
+vim ~/.bashrc
+#添加Gopath路径
+export GOPATH=/usr/local/go
+export PATH=$GOPATH/bin:$PATH
+```
+
 
 
