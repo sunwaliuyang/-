@@ -20,6 +20,8 @@ vim ~/.bashrc
 #添加Gopath路径
 export GOPATH=/usr/local/go
 export PATH=$GOPATH/bin:$PATH
+# 激活配置
+source ~/.bashrc
 ```
 
 
