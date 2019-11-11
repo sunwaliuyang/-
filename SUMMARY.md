@@ -10,4 +10,5 @@
 * [GO 夜读 学习笔记](go-ye-du-xue-xi-bi-ji.md)
 * [ubuntu实现Git自动化部署](ubuntushi-xian-git-zi-dong-hua-bu-shu.md)
 * [ubuntu 安装 RabbitMQ](ubuntu-an-zhuang-rabbitmq.md)
+* [centos7安装go环境](centos7an-zhuang-go-huan-jing.md)
 
