@@ -24,5 +24,14 @@ export PATH=$GOPATH/bin:$PATH
 source ~/.bashrc
 ```
 
+### 4.验证是否配置成功
+
+```
+go version
+#提示warning
+warning: GOPATH set to GOROOT (/usr/local/go) has no effect
+go version go1.13.4 linux/amd64
+```
+
 
 
