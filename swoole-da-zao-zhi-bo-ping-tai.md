@@ -51,6 +51,8 @@ demo测试
 cd ../swoole/examples/server
 php echo.php
 #监听9501端口
+lsof -i : 9501
+# php     1211 ubuntu    3u  IPv4 47977979      0t0  TCP *:9501 (LISTEN)
 ```
 
 
