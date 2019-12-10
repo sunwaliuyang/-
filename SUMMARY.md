@@ -7,4 +7,5 @@
 * [laravel电商实战](laraveldian-shang-shi-zhan.md)
 * [RabbitMQ学习笔记](rabbitmqxue-xi-bi-ji.md)
 * [Go夜读-网络学习笔记](goye-8bfb-wang-luo-xue-xi-bi-ji.md)
+* [肉肉保险预算](rou-rou-bao-xian-yu-suan.md)
 
